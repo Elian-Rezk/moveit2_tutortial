@@ -38,4 +38,4 @@ Even when reverting to the easier two-collision setup, PickIK still failed in mo
 ---
 
 ## 5. Final Choice
-I reverted to using **KDL**, which worked reliably in both collision setups.
+I reverted to using **KDL**, which worked in both collision setups.
