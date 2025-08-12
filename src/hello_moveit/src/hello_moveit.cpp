@@ -129,39 +129,39 @@ int main(int argc, char * argv[])
   return collision_object2;
   }();
 
-    //added yet another collision object (third)
-  auto const collision_object3 = [frame_id =
-                                 move_group_interface.getPlanningFrame()] {
-  moveit_msgs::msg::CollisionObject collision_object3;
-  collision_object3.header.frame_id = frame_id;
-  collision_object3.id = "box3";
-  shape_msgs::msg::SolidPrimitive primitive3;
+  //   //added yet another collision object (third)
+  // auto const collision_object3 = [frame_id =
+  //                                move_group_interface.getPlanningFrame()] {
+  // moveit_msgs::msg::CollisionObject collision_object3;
+  // collision_object3.header.frame_id = frame_id;
+  // collision_object3.id = "box3";
+  // shape_msgs::msg::SolidPrimitive primitive3;
 
 
-  primitive3.type = primitive3.BOX;
-  primitive3.dimensions.resize(3);
-  primitive3.dimensions[primitive3.BOX_X] = 0.5;
-  primitive3.dimensions[primitive3.BOX_Y] = 0.1;
-  primitive3.dimensions[primitive3.BOX_Z] = 1;
+  // primitive3.type = primitive3.BOX;
+  // primitive3.dimensions.resize(3);
+  // primitive3.dimensions[primitive3.BOX_X] = 0.5;
+  // primitive3.dimensions[primitive3.BOX_Y] = 0.1;
+  // primitive3.dimensions[primitive3.BOX_Z] = 1;
 
-  geometry_msgs::msg::Pose box_pose3;
-  box_pose3.orientation.w = 1.0;
-  box_pose3.position.x = -0.8;
-  box_pose3.position.y = 0.2;
-  box_pose3.position.z = 0.5;
+  // geometry_msgs::msg::Pose box_pose3;
+  // box_pose3.orientation.w = 1.0;
+  // box_pose3.position.x = -0.8;
+  // box_pose3.position.y = 0.2;
+  // box_pose3.position.z = 0.5;
 
-  collision_object3.primitives.push_back(primitive3);
-  collision_object3.primitive_poses.push_back(box_pose3);
-  collision_object3.operation = collision_object3.ADD;
+  // collision_object3.primitives.push_back(primitive3);
+  // collision_object3.primitive_poses.push_back(box_pose3);
+  // collision_object3.operation = collision_object3.ADD;
 
-  return collision_object3;
-  }();
+  // return collision_object3;
+  // }();
 
   // Add the collision object to the scene
   moveit::planning_interface::PlanningSceneInterface planning_scene_interface;
   planning_scene_interface.applyCollisionObject(collision_object1);
   planning_scene_interface.applyCollisionObject(collision_object2);
-  planning_scene_interface.applyCollisionObject(collision_object3);
+  //planning_scene_interface.applyCollisionObject(collision_object3);
 
   // Create a plan to that target pose
   prompt("Press 'Next' in the RvizVisualToolsGui window to plan");
