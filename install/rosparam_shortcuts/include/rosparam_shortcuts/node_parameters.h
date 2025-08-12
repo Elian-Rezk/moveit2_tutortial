@@ -1,0 +1,1 @@
+/home/elian/ws_moveit2/src/rosparam_shortcuts/include/rosparam_shortcuts/node_parameters.h

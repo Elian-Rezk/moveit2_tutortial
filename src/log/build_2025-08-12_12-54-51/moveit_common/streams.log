@@ -1,0 +1,33 @@
+[0.010s] Invoking command in '/home/elian/ws_moveit2/src/build/moveit_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/elian/ws_moveit2/install/moveit_configs_utils:/home/elian/ws_moveit2/install/launch_param_builder:/home/elian/academy_robotics/ros2_academy_ws/install/depth_to_pointcloud:/opt/ros/humble /usr/bin/cmake /home/elian/ws_moveit2/src/moveit2/moveit_common -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/elian/ws_moveit2/src/install/moveit_common
+[0.021s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.124s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.183s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.185s] -- Added test 'lint_cmake' to check CMake code style
+[0.185s] -- Added test 'xmllint' to check XML markup files
+[0.186s] -- Configuring done
+[0.188s] -- Generating done
+[0.189s] -- Build files have been written to: /home/elian/ws_moveit2/src/build/moveit_common
+[0.191s] Invoked command in '/home/elian/ws_moveit2/src/build/moveit_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/elian/ws_moveit2/install/moveit_configs_utils:/home/elian/ws_moveit2/install/launch_param_builder:/home/elian/academy_robotics/ros2_academy_ws/install/depth_to_pointcloud:/opt/ros/humble /usr/bin/cmake /home/elian/ws_moveit2/src/moveit2/moveit_common -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/elian/ws_moveit2/src/install/moveit_common
+[0.192s] Invoking command in '/home/elian/ws_moveit2/src/build/moveit_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/elian/ws_moveit2/install/moveit_configs_utils:/home/elian/ws_moveit2/install/launch_param_builder:/home/elian/academy_robotics/ros2_academy_ws/install/depth_to_pointcloud:/opt/ros/humble /usr/bin/cmake --build /home/elian/ws_moveit2/src/build/moveit_common -- -j8 -l8
+[0.233s] Invoked command in '/home/elian/ws_moveit2/src/build/moveit_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/elian/ws_moveit2/install/moveit_configs_utils:/home/elian/ws_moveit2/install/launch_param_builder:/home/elian/academy_robotics/ros2_academy_ws/install/depth_to_pointcloud:/opt/ros/humble /usr/bin/cmake --build /home/elian/ws_moveit2/src/build/moveit_common -- -j8 -l8
+[0.234s] Invoking command in '/home/elian/ws_moveit2/src/build/moveit_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/elian/ws_moveit2/install/moveit_configs_utils:/home/elian/ws_moveit2/install/launch_param_builder:/home/elian/academy_robotics/ros2_academy_ws/install/depth_to_pointcloud:/opt/ros/humble /usr/bin/cmake --install /home/elian/ws_moveit2/src/build/moveit_common
+[0.243s] -- Install configuration: "Release"
+[0.243s] -- Up-to-date: /home/elian/ws_moveit2/src/install/moveit_common/share/ament_index/resource_index/package_run_dependencies/moveit_common
+[0.243s] -- Installing: /home/elian/ws_moveit2/src/install/moveit_common/share/ament_index/resource_index/parent_prefix_path/moveit_common
+[0.243s] -- Up-to-date: /home/elian/ws_moveit2/src/install/moveit_common/share/moveit_common/environment/ament_prefix_path.sh
+[0.243s] -- Installing: /home/elian/ws_moveit2/src/install/moveit_common/share/moveit_common/environment/ament_prefix_path.dsv
+[0.244s] -- Up-to-date: /home/elian/ws_moveit2/src/install/moveit_common/share/moveit_common/environment/path.sh
+[0.244s] -- Installing: /home/elian/ws_moveit2/src/install/moveit_common/share/moveit_common/environment/path.dsv
+[0.244s] -- Up-to-date: /home/elian/ws_moveit2/src/install/moveit_common/share/moveit_common/local_setup.bash
+[0.244s] -- Up-to-date: /home/elian/ws_moveit2/src/install/moveit_common/share/moveit_common/local_setup.sh
+[0.244s] -- Up-to-date: /home/elian/ws_moveit2/src/install/moveit_common/share/moveit_common/local_setup.zsh
+[0.244s] -- Installing: /home/elian/ws_moveit2/src/install/moveit_common/share/moveit_common/local_setup.dsv
+[0.244s] -- Installing: /home/elian/ws_moveit2/src/install/moveit_common/share/moveit_common/package.dsv
+[0.244s] -- Up-to-date: /home/elian/ws_moveit2/src/install/moveit_common/share/ament_index/resource_index/packages/moveit_common
+[0.244s] -- Up-to-date: /home/elian/ws_moveit2/src/install/moveit_common/share/moveit_common/cmake/moveit_common-extras.cmake
+[0.244s] -- Up-to-date: /home/elian/ws_moveit2/src/install/moveit_common/share/moveit_common/cmake/moveit_commonConfig.cmake
+[0.244s] -- Up-to-date: /home/elian/ws_moveit2/src/install/moveit_common/share/moveit_common/cmake/moveit_commonConfig-version.cmake
+[0.244s] -- Up-to-date: /home/elian/ws_moveit2/src/install/moveit_common/share/moveit_common/package.xml
+[0.244s] -- Up-to-date: /home/elian/ws_moveit2/src/install/moveit_common/share/moveit_common/cmake
+[0.244s] -- Up-to-date: /home/elian/ws_moveit2/src/install/moveit_common/share/moveit_common/cmake/moveit_package.cmake
+[0.245s] Invoked command in '/home/elian/ws_moveit2/src/build/moveit_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/elian/ws_moveit2/install/moveit_configs_utils:/home/elian/ws_moveit2/install/launch_param_builder:/home/elian/academy_robotics/ros2_academy_ws/install/depth_to_pointcloud:/opt/ros/humble /usr/bin/cmake --install /home/elian/ws_moveit2/src/build/moveit_common

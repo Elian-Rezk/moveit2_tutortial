@@ -1,0 +1,1 @@
+/home/elian/ws_moveit2/build/moveit_task_constructor_capabilities/ament_cmake_environment_hooks/local_setup.zsh

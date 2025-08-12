@@ -1,0 +1,1 @@
+/home/elian/ws_moveit2/src/moveit2_tutorials/doc/examples/pilz_industrial_motion_planner/launch/pilz_mtc.launch.py

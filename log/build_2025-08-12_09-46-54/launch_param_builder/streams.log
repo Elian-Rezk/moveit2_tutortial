@@ -1,0 +1,40 @@
+[0.468s] Invoking command in '/home/elian/ws_moveit2/build/launch_param_builder': PYTHONPATH=/home/elian/ws_moveit2/build/launch_param_builder/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/elian/ws_moveit2/install/launch_param_builder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/elian/ws_moveit2/build/launch_param_builder/build
+[0.659s] running develop
+[0.772s] Removing /home/elian/ws_moveit2/install/launch_param_builder/lib/python3.10/site-packages/launch-param-builder.egg-link (link to .)
+[0.796s] Invoked command in '/home/elian/ws_moveit2/build/launch_param_builder' returned '0': PYTHONPATH=/home/elian/ws_moveit2/build/launch_param_builder/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/elian/ws_moveit2/install/launch_param_builder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/elian/ws_moveit2/build/launch_param_builder/build
+[0.797s] Invoking command in '/home/elian/ws_moveit2/src/launch_param_builder': PYTHONPATH=/home/elian/ws_moveit2/build/launch_param_builder/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/elian/ws_moveit2/install/launch_param_builder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/launch_param_builder build --build-base /home/elian/ws_moveit2/build/launch_param_builder/build install --record /home/elian/ws_moveit2/build/launch_param_builder/install.log --single-version-externally-managed install_data --force
+[0.968s] running egg_info
+[0.969s] writing ../../build/launch_param_builder/launch_param_builder.egg-info/PKG-INFO
+[0.969s] writing dependency_links to ../../build/launch_param_builder/launch_param_builder.egg-info/dependency_links.txt
+[0.969s] writing entry points to ../../build/launch_param_builder/launch_param_builder.egg-info/entry_points.txt
+[0.969s] writing requirements to ../../build/launch_param_builder/launch_param_builder.egg-info/requires.txt
+[0.969s] writing top-level names to ../../build/launch_param_builder/launch_param_builder.egg-info/top_level.txt
+[0.971s] reading manifest file '../../build/launch_param_builder/launch_param_builder.egg-info/SOURCES.txt'
+[0.971s] adding license file 'LICENSE'
+[0.972s] writing manifest file '../../build/launch_param_builder/launch_param_builder.egg-info/SOURCES.txt'
+[0.972s] running build
+[0.972s] running build_py
+[0.972s] running install
+[0.972s] running install_lib
+[0.973s] creating /home/elian/ws_moveit2/install/launch_param_builder/lib/python3.10/site-packages/launch_param_builder
+[0.973s] copying /home/elian/ws_moveit2/build/launch_param_builder/build/lib/launch_param_builder/launch_param_builder.py -> /home/elian/ws_moveit2/install/launch_param_builder/lib/python3.10/site-packages/launch_param_builder
+[0.973s] copying /home/elian/ws_moveit2/build/launch_param_builder/build/lib/launch_param_builder/utils.py -> /home/elian/ws_moveit2/install/launch_param_builder/lib/python3.10/site-packages/launch_param_builder
+[0.973s] copying /home/elian/ws_moveit2/build/launch_param_builder/build/lib/launch_param_builder/__init__.py -> /home/elian/ws_moveit2/install/launch_param_builder/lib/python3.10/site-packages/launch_param_builder
+[0.974s] byte-compiling /home/elian/ws_moveit2/install/launch_param_builder/lib/python3.10/site-packages/launch_param_builder/launch_param_builder.py to launch_param_builder.cpython-310.pyc
+[0.974s] byte-compiling /home/elian/ws_moveit2/install/launch_param_builder/lib/python3.10/site-packages/launch_param_builder/utils.py to utils.cpython-310.pyc
+[0.975s] byte-compiling /home/elian/ws_moveit2/install/launch_param_builder/lib/python3.10/site-packages/launch_param_builder/__init__.py to __init__.cpython-310.pyc
+[0.975s] running install_data
+[0.975s] copying resource/launch_param_builder -> /home/elian/ws_moveit2/install/launch_param_builder/share/ament_index/resource_index/packages
+[0.975s] copying example/launch_param_builder_example.launch.py -> /home/elian/ws_moveit2/install/launch_param_builder/share/launch_param_builder/launch
+[0.975s] copying test/data/param_file_to_inject.yaml -> /home/elian/ws_moveit2/install/launch_param_builder/share/launch_param_builder/config
+[0.975s] copying test/data/parameter.xacro -> /home/elian/ws_moveit2/install/launch_param_builder/share/launch_param_builder/config
+[0.975s] copying test/data/parameter_file -> /home/elian/ws_moveit2/install/launch_param_builder/share/launch_param_builder/config
+[0.975s] copying test/data/parameters_injection.yaml -> /home/elian/ws_moveit2/install/launch_param_builder/share/launch_param_builder/config
+[0.976s] copying test/data/parameters.yaml -> /home/elian/ws_moveit2/install/launch_param_builder/share/launch_param_builder/config
+[0.976s] copying package.xml -> /home/elian/ws_moveit2/install/launch_param_builder/share/launch_param_builder
+[0.976s] copying example/example_node.py -> /home/elian/ws_moveit2/install/launch_param_builder/lib/launch_param_builder
+[0.976s] running install_egg_info
+[0.977s] Copying ../../build/launch_param_builder/launch_param_builder.egg-info to /home/elian/ws_moveit2/install/launch_param_builder/lib/python3.10/site-packages/launch_param_builder-0.1.1-py3.10.egg-info
+[0.978s] running install_scripts
+[0.993s] writing list of installed files to '/home/elian/ws_moveit2/build/launch_param_builder/install.log'
+[1.013s] Invoked command in '/home/elian/ws_moveit2/src/launch_param_builder' returned '0': PYTHONPATH=/home/elian/ws_moveit2/build/launch_param_builder/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/elian/ws_moveit2/install/launch_param_builder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/launch_param_builder build --build-base /home/elian/ws_moveit2/build/launch_param_builder/build install --record /home/elian/ws_moveit2/build/launch_param_builder/install.log --single-version-externally-managed install_data --force

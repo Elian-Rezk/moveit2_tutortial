@@ -1,0 +1,1 @@
+/home/elian/ws_moveit2/src/moveit2/moveit_setup_assistant/moveit_setup_assistant/launch/setup_assistant.launch.py

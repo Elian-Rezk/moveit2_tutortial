@@ -1,0 +1,1 @@
+/home/elian/ws_moveit2/build/moveit_ros/ament_cmake_core/moveit_rosConfig.cmake

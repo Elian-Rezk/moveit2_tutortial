@@ -1,0 +1,3 @@
+/home/elian/ws_moveit2/install/rosparam_shortcuts/lib/librosparam_shortcuts.so
+/home/elian/ws_moveit2/install/rosparam_shortcuts/share/rosparam_shortcuts/cmake/export_rosparam_shortcutsExport.cmake
+/home/elian/ws_moveit2/install/rosparam_shortcuts/share/rosparam_shortcuts/cmake/export_rosparam_shortcutsExport-release.cmake

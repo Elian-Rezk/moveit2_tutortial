@@ -1,0 +1,23 @@
+[35m[1mConsolidate compiler generated dependencies of target hello_moveit[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/hello_moveit.dir/src/hello_moveit.cpp.o[0m
+[01m[K/home/elian/ws_moveit2/src/hello_moveit/src/hello_moveit.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/elian/ws_moveit2/src/hello_moveit/src/hello_moveit.cpp:115:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::tuple_element<1, const std::pair<bool, moveit::planning_interface::MoveGroupInterface::Plan> >::type[m[K’ {aka ‘[01m[Kconst struct moveit::planning_interface::MoveGroupInterface::Plan[m[K’} has no member named ‘[01m[Ktrajectory[m[K’; did you mean ‘[01m[Ktrajectory_[m[K’?
+  115 |   draw_trajectory_tool_path(plan.[01;31m[Ktrajectory[m[K);
+      |                                  [01;31m[K^~~~~~~~~~[m[K
+      |                                  [32m[Ktrajectory_[m[K
+[01m[K/home/elian/ws_moveit2/src/hello_moveit/src/hello_moveit.cpp:[m[K At global scope:
+[01m[K/home/elian/ws_moveit2/src/hello_moveit/src/hello_moveit.cpp:130:21:[m[K [01;31m[Kerror: [m[Kexpected constructor, destructor, or type conversion before ‘[01m[K;[m[K’ token
+  130 |   rclcpp::shutdown()[01;31m[K;[m[K
+      |                     [01;31m[K^[m[K
+[01m[K/home/elian/ws_moveit2/src/hello_moveit/src/hello_moveit.cpp:131:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kspinner[m[K’ does not name a type
+  131 |   [01;31m[Kspinner[m[K.join();
+      |   [01;31m[K^~~~~~~[m[K
+[01m[K/home/elian/ws_moveit2/src/hello_moveit/src/hello_moveit.cpp:132:3:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kreturn[m[K’
+  132 |   [01;31m[Kreturn[m[K 0;
+      |   [01;31m[K^~~~~~[m[K
+[01m[K/home/elian/ws_moveit2/src/hello_moveit/src/hello_moveit.cpp:133:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+  133 | [01;31m[K}[m[K
+      | [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/hello_moveit.dir/build.make:76: CMakeFiles/hello_moveit.dir/src/hello_moveit.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/hello_moveit.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

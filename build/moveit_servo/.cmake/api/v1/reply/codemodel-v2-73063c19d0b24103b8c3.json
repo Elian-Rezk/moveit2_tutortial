@@ -1,0 +1,142 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-1531d90157cb569cbc4d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "moveit_servo",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "fake_command_publisher::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fake_command_publisher-Release-0e172196ddb6e01acbe9.json",
+					"name" : "fake_command_publisher",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit_servo_lib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit_servo_lib-Release-6b043a139e85e41adf12.json",
+					"name" : "moveit_servo_lib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit_servo_lib_parameters::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit_servo_lib_parameters-Release-2a592631cb0c176ab167.json",
+					"name" : "moveit_servo_lib_parameters",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit_servo_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit_servo_uninstall-Release-56aae22d2b6d540aacd3.json",
+					"name" : "moveit_servo_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pose_tracking::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pose_tracking-Release-02e6bdf4ffb1da34d783.json",
+					"name" : "pose_tracking",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "servo_controller_input::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-servo_controller_input-Release-36a14c079371b285f4ac.json",
+					"name" : "servo_controller_input",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "servo_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-servo_node-Release-47e5667c5217cb5db691.json",
+					"name" : "servo_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "servo_node_main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-servo_node_main-Release-6616d3fc158cc4a3834b.json",
+					"name" : "servo_node_main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "servo_pose_tracking_demo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-servo_pose_tracking_demo-Release-cda59587994a3f6d01c5.json",
+					"name" : "servo_pose_tracking_demo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-eac318f66f2b5de0b9af.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/elian/ws_moveit2/build/moveit_servo",
+		"source" : "/home/elian/ws_moveit2/src/moveit2/moveit_ros/moveit_servo"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

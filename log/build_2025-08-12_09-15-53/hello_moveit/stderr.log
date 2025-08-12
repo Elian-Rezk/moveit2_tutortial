@@ -1,0 +1,13 @@
+[01m[K/home/elian/ws_moveit2/src/hello_moveit/src/hello_moveit.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/elian/ws_moveit2/src/hello_moveit/src/hello_moveit.cpp:48:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kprompt[m[K’ was not declared in this scope
+   48 | [01;31m[Kprompt[m[K("Press 'Next' in the RvizVisualToolsGui window to plan");
+      | [01;31m[K^~~~~~[m[K
+[01m[K/home/elian/ws_moveit2/src/hello_moveit/src/hello_moveit.cpp:49:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kdraw_title[m[K’ was not declared in this scope
+   49 | [01;31m[Kdraw_title[m[K("Planning");
+      | [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/elian/ws_moveit2/src/hello_moveit/src/hello_moveit.cpp:59:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kdraw_trajectory_tool_path[m[K’ was not declared in this scope
+   59 |   [01;31m[Kdraw_trajectory_tool_path[m[K(plan.trajectory_);
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/hello_moveit.dir/build.make:76: CMakeFiles/hello_moveit.dir/src/hello_moveit.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/hello_moveit.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

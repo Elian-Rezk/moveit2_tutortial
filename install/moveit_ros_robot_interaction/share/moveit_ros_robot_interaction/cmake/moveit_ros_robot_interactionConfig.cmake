@@ -1,0 +1,1 @@
+/home/elian/ws_moveit2/build/moveit_ros_robot_interaction/ament_cmake_core/moveit_ros_robot_interactionConfig.cmake

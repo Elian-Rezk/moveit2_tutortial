@@ -1,0 +1,1 @@
+/home/elian/ws_moveit2/src/moveit2/moveit_kinematics/lma_kinematics_plugin/include/moveit/lma_kinematics_plugin/lma_kinematics_plugin.h

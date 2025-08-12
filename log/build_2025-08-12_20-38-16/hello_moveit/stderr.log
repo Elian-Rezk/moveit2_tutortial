@@ -1,0 +1,8 @@
+[01m[K/home/elian/ws_moveit2/src/hello_moveit/src/hello_moveit.cpp:[m[K In lambda function:
+[01m[K/home/elian/ws_moveit2/src/hello_moveit/src/hello_moveit.cpp:113:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kprimitive1[m[K’ was not declared in this scope; did you mean ‘[01m[Kprimitive2[m[K’?
+  113 |   primitive2.type = [01;31m[Kprimitive1[m[K.BOX;
+      |                     [01;31m[K^~~~~~~~~~[m[K
+      |                     [32m[Kprimitive2[m[K
+gmake[2]: *** [CMakeFiles/hello_moveit.dir/build.make:76: CMakeFiles/hello_moveit.dir/src/hello_moveit.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/hello_moveit.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

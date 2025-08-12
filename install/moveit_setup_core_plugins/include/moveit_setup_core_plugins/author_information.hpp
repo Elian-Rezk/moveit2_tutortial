@@ -1,0 +1,1 @@
+/home/elian/ws_moveit2/src/moveit2/moveit_setup_assistant/moveit_setup_core_plugins/include/moveit_setup_core_plugins/author_information.hpp

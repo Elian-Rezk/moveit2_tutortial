@@ -1,0 +1,14 @@
+The system is: Linux - 6.8.0-65-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/elian/ws_moveit2/src/build/moveit_resources_fanuc_moveit_config/CMakeFiles/3.22.1/CompilerIdC/a.out"
+

@@ -1,0 +1,1 @@
+/home/elian/ws_moveit2/src/moveit_resources/panda_moveit_config/launch/moveit_rviz.launch.py

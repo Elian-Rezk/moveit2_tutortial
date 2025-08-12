@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-ab3718571269e90576ca.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "moveit_ros_occupancy_map_monitor",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit_ros_occupancy_map_monitor::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit_ros_occupancy_map_monitor-Release-35aa76fc5f5f3120c854.json",
+					"name" : "moveit_ros_occupancy_map_monitor",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit_ros_occupancy_map_monitor_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit_ros_occupancy_map_monitor_uninstall-Release-1a6f2aac54ed4019527e.json",
+					"name" : "moveit_ros_occupancy_map_monitor_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit_ros_occupancy_map_server::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit_ros_occupancy_map_server-Release-700f710bd7728092d337.json",
+					"name" : "moveit_ros_occupancy_map_server",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-96079ee7dd5ef39671d7.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/elian/ws_moveit2/build/moveit_ros_occupancy_map_monitor",
+		"source" : "/home/elian/ws_moveit2/src/moveit2/moveit_ros/occupancy_map_monitor"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

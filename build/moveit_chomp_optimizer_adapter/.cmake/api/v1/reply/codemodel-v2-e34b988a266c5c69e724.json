@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-eb89c01fef46ec3c45fc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "moveit_chomp_optimizer_adapter",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit_chomp_optimizer_adapter::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit_chomp_optimizer_adapter-Release-a9a1090fc95559ad7d55.json",
+					"name" : "moveit_chomp_optimizer_adapter",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit_chomp_optimizer_adapter_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit_chomp_optimizer_adapter_uninstall-Release-f35233a21402698b4a77.json",
+					"name" : "moveit_chomp_optimizer_adapter_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-bce2e00bb7ce7ab2e980.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/elian/ws_moveit2/build/moveit_chomp_optimizer_adapter",
+		"source" : "/home/elian/ws_moveit2/src/moveit2/moveit_planners/chomp/chomp_optimizer_adapter"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

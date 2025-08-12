@@ -1,0 +1,15 @@
+/home/elian/ws_moveit2/install/moveit_resources/share/ament_index/resource_index/package_run_dependencies/moveit_resources
+/home/elian/ws_moveit2/install/moveit_resources/share/ament_index/resource_index/parent_prefix_path/moveit_resources
+/home/elian/ws_moveit2/install/moveit_resources/share/moveit_resources/environment/ament_prefix_path.sh
+/home/elian/ws_moveit2/install/moveit_resources/share/moveit_resources/environment/ament_prefix_path.dsv
+/home/elian/ws_moveit2/install/moveit_resources/share/moveit_resources/environment/path.sh
+/home/elian/ws_moveit2/install/moveit_resources/share/moveit_resources/environment/path.dsv
+/home/elian/ws_moveit2/install/moveit_resources/share/moveit_resources/local_setup.bash
+/home/elian/ws_moveit2/install/moveit_resources/share/moveit_resources/local_setup.sh
+/home/elian/ws_moveit2/install/moveit_resources/share/moveit_resources/local_setup.zsh
+/home/elian/ws_moveit2/install/moveit_resources/share/moveit_resources/local_setup.dsv
+/home/elian/ws_moveit2/install/moveit_resources/share/moveit_resources/package.dsv
+/home/elian/ws_moveit2/install/moveit_resources/share/ament_index/resource_index/packages/moveit_resources
+/home/elian/ws_moveit2/install/moveit_resources/share/moveit_resources/cmake/moveit_resourcesConfig.cmake
+/home/elian/ws_moveit2/install/moveit_resources/share/moveit_resources/cmake/moveit_resourcesConfig-version.cmake
+/home/elian/ws_moveit2/install/moveit_resources/share/moveit_resources/package.xml

@@ -1,0 +1,67 @@
+[0.011s] Invoking command in '/home/elian/ws_moveit2/build/rosparam_shortcuts': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/elian/ws_moveit2/install/moveit_configs_utils:/home/elian/ws_moveit2/install/launch_param_builder:/home/elian/academy_robotics/ros2_academy_ws/install/depth_to_pointcloud:/opt/ros/humble /usr/bin/cmake /home/elian/ws_moveit2/src/rosparam_shortcuts -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/elian/ws_moveit2/install/rosparam_shortcuts
+[0.024s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.124s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.129s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.130s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.148s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.150s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.153s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.162s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.172s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.197s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[0.214s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.217s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.310s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.335s] -- Found tf2_eigen: 0.25.15 (/opt/ros/humble/share/tf2_eigen/cmake)
+[0.469s] -- Configuring done
+[0.485s] -- Generating done
+[0.490s] -- Build files have been written to: /home/elian/ws_moveit2/build/rosparam_shortcuts
+[0.496s] Invoked command in '/home/elian/ws_moveit2/build/rosparam_shortcuts' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/elian/ws_moveit2/install/moveit_configs_utils:/home/elian/ws_moveit2/install/launch_param_builder:/home/elian/academy_robotics/ros2_academy_ws/install/depth_to_pointcloud:/opt/ros/humble /usr/bin/cmake /home/elian/ws_moveit2/src/rosparam_shortcuts -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/elian/ws_moveit2/install/rosparam_shortcuts
+[0.497s] Invoking command in '/home/elian/ws_moveit2/build/rosparam_shortcuts': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/elian/ws_moveit2/install/moveit_configs_utils:/home/elian/ws_moveit2/install/launch_param_builder:/home/elian/academy_robotics/ros2_academy_ws/install/depth_to_pointcloud:/opt/ros/humble /usr/bin/cmake --build /home/elian/ws_moveit2/build/rosparam_shortcuts -- -j8 -l8
+[0.545s] [35m[1mConsolidate compiler generated dependencies of target rosparam_shortcuts[0m
+[0.564s] [ 14%] [32mBuilding CXX object CMakeFiles/rosparam_shortcuts.dir/src/node_parameters.cpp.o[0m
+[0.565s] [ 28%] [32mBuilding CXX object CMakeFiles/rosparam_shortcuts.dir/src/rosparam_shortcuts.cpp.o[0m
+[5.660s] [ 42%] [32m[1mLinking CXX shared library librosparam_shortcuts.so[0m
+[5.762s] [ 42%] Built target rosparam_shortcuts
+[5.775s] [35m[1mConsolidate compiler generated dependencies of target rosparam_shortcuts_example[0m
+[5.776s] [35m[1mConsolidate compiler generated dependencies of target rosparam_shortcuts_node_parameters_example[0m
+[5.794s] [ 57%] [32mBuilding CXX object CMakeFiles/rosparam_shortcuts_example.dir/src/example.cpp.o[0m
+[5.795s] [ 71%] [32mBuilding CXX object CMakeFiles/rosparam_shortcuts_node_parameters_example.dir/src/node_parameters_example.cpp.o[0m
+[9.279s] [ 85%] [32m[1mLinking CXX executable node_parameters_example[0m
+[9.304s] [100%] [32m[1mLinking CXX executable example[0m
+[9.394s] [100%] Built target rosparam_shortcuts_node_parameters_example
+[9.417s] [100%] Built target rosparam_shortcuts_example
+[9.430s] Invoked command in '/home/elian/ws_moveit2/build/rosparam_shortcuts' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/elian/ws_moveit2/install/moveit_configs_utils:/home/elian/ws_moveit2/install/launch_param_builder:/home/elian/academy_robotics/ros2_academy_ws/install/depth_to_pointcloud:/opt/ros/humble /usr/bin/cmake --build /home/elian/ws_moveit2/build/rosparam_shortcuts -- -j8 -l8
+[9.431s] Invoking command in '/home/elian/ws_moveit2/build/rosparam_shortcuts': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/elian/ws_moveit2/install/moveit_configs_utils:/home/elian/ws_moveit2/install/launch_param_builder:/home/elian/academy_robotics/ros2_academy_ws/install/depth_to_pointcloud:/opt/ros/humble /usr/bin/cmake --install /home/elian/ws_moveit2/build/rosparam_shortcuts
+[9.441s] -- Install configuration: "Release"
+[9.441s] -- Execute custom install script
+[9.442s] -- Up-to-date symlink: /home/elian/ws_moveit2/install/rosparam_shortcuts/lib/rosparam_shortcuts/example
+[9.442s] -- Up-to-date symlink: /home/elian/ws_moveit2/install/rosparam_shortcuts/lib/rosparam_shortcuts/node_parameters_example
+[9.443s] -- Up-to-date symlink: /home/elian/ws_moveit2/install/rosparam_shortcuts/include/rosparam_shortcuts/node_parameters.h
+[9.443s] -- Up-to-date symlink: /home/elian/ws_moveit2/install/rosparam_shortcuts/include/rosparam_shortcuts/rosparam_shortcuts.h
+[9.444s] -- Up-to-date symlink: /home/elian/ws_moveit2/install/rosparam_shortcuts/share/rosparam_shortcuts/launch/example.launch.py
+[9.444s] -- Up-to-date symlink: /home/elian/ws_moveit2/install/rosparam_shortcuts/share/rosparam_shortcuts/config/example.yaml
+[9.444s] -- Up-to-date symlink: /home/elian/ws_moveit2/install/rosparam_shortcuts/share/rosparam_shortcuts/environment/library_path.sh
+[9.444s] -- Up-to-date symlink: /home/elian/ws_moveit2/install/rosparam_shortcuts/share/rosparam_shortcuts/environment/library_path.dsv
+[9.445s] -- Up-to-date symlink: /home/elian/ws_moveit2/install/rosparam_shortcuts/share/ament_index/resource_index/package_run_dependencies/rosparam_shortcuts
+[9.445s] -- Up-to-date symlink: /home/elian/ws_moveit2/install/rosparam_shortcuts/share/ament_index/resource_index/parent_prefix_path/rosparam_shortcuts
+[9.445s] -- Up-to-date symlink: /home/elian/ws_moveit2/install/rosparam_shortcuts/share/rosparam_shortcuts/environment/ament_prefix_path.sh
+[9.445s] -- Up-to-date symlink: /home/elian/ws_moveit2/install/rosparam_shortcuts/share/rosparam_shortcuts/environment/ament_prefix_path.dsv
+[9.446s] -- Up-to-date symlink: /home/elian/ws_moveit2/install/rosparam_shortcuts/share/rosparam_shortcuts/environment/path.sh
+[9.446s] -- Up-to-date symlink: /home/elian/ws_moveit2/install/rosparam_shortcuts/share/rosparam_shortcuts/environment/path.dsv
+[9.446s] -- Up-to-date symlink: /home/elian/ws_moveit2/install/rosparam_shortcuts/share/rosparam_shortcuts/local_setup.bash
+[9.446s] -- Up-to-date symlink: /home/elian/ws_moveit2/install/rosparam_shortcuts/share/rosparam_shortcuts/local_setup.sh
+[9.447s] -- Up-to-date symlink: /home/elian/ws_moveit2/install/rosparam_shortcuts/share/rosparam_shortcuts/local_setup.zsh
+[9.447s] -- Up-to-date symlink: /home/elian/ws_moveit2/install/rosparam_shortcuts/share/rosparam_shortcuts/local_setup.dsv
+[9.447s] -- Symlinking: /home/elian/ws_moveit2/install/rosparam_shortcuts/share/rosparam_shortcuts/package.dsv
+[9.462s] -- Up-to-date symlink: /home/elian/ws_moveit2/install/rosparam_shortcuts/share/ament_index/resource_index/packages/rosparam_shortcuts
+[9.462s] -- Up-to-date symlink: /home/elian/ws_moveit2/install/rosparam_shortcuts/share/rosparam_shortcuts/cmake/ament_cmake_export_targets-extras.cmake
+[9.462s] -- Up-to-date symlink: /home/elian/ws_moveit2/install/rosparam_shortcuts/share/rosparam_shortcuts/cmake/ament_cmake_export_dependencies-extras.cmake
+[9.463s] -- Up-to-date symlink: /home/elian/ws_moveit2/install/rosparam_shortcuts/share/rosparam_shortcuts/cmake/rosparam_shortcutsConfig.cmake
+[9.463s] -- Up-to-date symlink: /home/elian/ws_moveit2/install/rosparam_shortcuts/share/rosparam_shortcuts/cmake/rosparam_shortcutsConfig-version.cmake
+[9.463s] -- Up-to-date symlink: /home/elian/ws_moveit2/install/rosparam_shortcuts/share/rosparam_shortcuts/package.xml
+[9.464s] -- Installing: /home/elian/ws_moveit2/install/rosparam_shortcuts/lib/librosparam_shortcuts.so
+[9.464s] -- Set runtime path of "/home/elian/ws_moveit2/install/rosparam_shortcuts/lib/librosparam_shortcuts.so" to ""
+[9.465s] -- Up-to-date: /home/elian/ws_moveit2/install/rosparam_shortcuts/share/rosparam_shortcuts/cmake/export_rosparam_shortcutsExport.cmake
+[9.465s] -- Installing: /home/elian/ws_moveit2/install/rosparam_shortcuts/share/rosparam_shortcuts/cmake/export_rosparam_shortcutsExport-release.cmake
+[9.468s] Invoked command in '/home/elian/ws_moveit2/build/rosparam_shortcuts' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/elian/ws_moveit2/install/moveit_configs_utils:/home/elian/ws_moveit2/install/launch_param_builder:/home/elian/academy_robotics/ros2_academy_ws/install/depth_to_pointcloud:/opt/ros/humble /usr/bin/cmake --install /home/elian/ws_moveit2/build/rosparam_shortcuts

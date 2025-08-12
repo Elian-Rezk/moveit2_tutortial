@@ -1,0 +1,1 @@
+/home/elian/ws_moveit2/build/moveit_msgs/rosidl_cmake/srv/GetMotionPlan_Request.msg

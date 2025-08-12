@@ -1,0 +1,23 @@
+[0.011s] Invoking command in '/home/elian/ws_moveit2/build/moveit_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/elian/ws_moveit2/install/moveit_configs_utils:/home/elian/ws_moveit2/install/launch_param_builder:/home/elian/academy_robotics/ros2_academy_ws/install/depth_to_pointcloud:/opt/ros/humble /usr/bin/cmake --build /home/elian/ws_moveit2/build/moveit_common -- -j8 -l8
+[0.052s] Invoked command in '/home/elian/ws_moveit2/build/moveit_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/elian/ws_moveit2/install/moveit_configs_utils:/home/elian/ws_moveit2/install/launch_param_builder:/home/elian/academy_robotics/ros2_academy_ws/install/depth_to_pointcloud:/opt/ros/humble /usr/bin/cmake --build /home/elian/ws_moveit2/build/moveit_common -- -j8 -l8
+[0.053s] Invoking command in '/home/elian/ws_moveit2/build/moveit_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/elian/ws_moveit2/install/moveit_configs_utils:/home/elian/ws_moveit2/install/launch_param_builder:/home/elian/academy_robotics/ros2_academy_ws/install/depth_to_pointcloud:/opt/ros/humble /usr/bin/cmake --install /home/elian/ws_moveit2/build/moveit_common
+[0.062s] -- Install configuration: "Debug"
+[0.063s] -- Execute custom install script
+[0.063s] -- Up-to-date symlink: /home/elian/ws_moveit2/install/moveit_common/share/ament_index/resource_index/package_run_dependencies/moveit_common
+[0.063s] -- Up-to-date symlink: /home/elian/ws_moveit2/install/moveit_common/share/ament_index/resource_index/parent_prefix_path/moveit_common
+[0.063s] -- Up-to-date symlink: /home/elian/ws_moveit2/install/moveit_common/share/moveit_common/environment/ament_prefix_path.sh
+[0.063s] -- Up-to-date symlink: /home/elian/ws_moveit2/install/moveit_common/share/moveit_common/environment/ament_prefix_path.dsv
+[0.063s] -- Up-to-date symlink: /home/elian/ws_moveit2/install/moveit_common/share/moveit_common/environment/path.sh
+[0.063s] -- Up-to-date symlink: /home/elian/ws_moveit2/install/moveit_common/share/moveit_common/environment/path.dsv
+[0.063s] -- Up-to-date symlink: /home/elian/ws_moveit2/install/moveit_common/share/moveit_common/local_setup.bash
+[0.063s] -- Up-to-date symlink: /home/elian/ws_moveit2/install/moveit_common/share/moveit_common/local_setup.sh
+[0.063s] -- Up-to-date symlink: /home/elian/ws_moveit2/install/moveit_common/share/moveit_common/local_setup.zsh
+[0.063s] -- Up-to-date symlink: /home/elian/ws_moveit2/install/moveit_common/share/moveit_common/local_setup.dsv
+[0.063s] -- Symlinking: /home/elian/ws_moveit2/install/moveit_common/share/moveit_common/package.dsv
+[0.073s] -- Up-to-date symlink: /home/elian/ws_moveit2/install/moveit_common/share/ament_index/resource_index/packages/moveit_common
+[0.073s] -- Up-to-date symlink: /home/elian/ws_moveit2/install/moveit_common/share/moveit_common/cmake/moveit_common-extras.cmake
+[0.073s] -- Up-to-date symlink: /home/elian/ws_moveit2/install/moveit_common/share/moveit_common/cmake/moveit_commonConfig.cmake
+[0.073s] -- Up-to-date symlink: /home/elian/ws_moveit2/install/moveit_common/share/moveit_common/cmake/moveit_commonConfig-version.cmake
+[0.073s] -- Up-to-date symlink: /home/elian/ws_moveit2/install/moveit_common/share/moveit_common/package.xml
+[0.073s] -- Up-to-date symlink: /home/elian/ws_moveit2/install/moveit_common/share/moveit_common/cmake/moveit_package.cmake
+[0.075s] Invoked command in '/home/elian/ws_moveit2/build/moveit_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/elian/ws_moveit2/install/moveit_configs_utils:/home/elian/ws_moveit2/install/launch_param_builder:/home/elian/academy_robotics/ros2_academy_ws/install/depth_to_pointcloud:/opt/ros/humble /usr/bin/cmake --install /home/elian/ws_moveit2/build/moveit_common

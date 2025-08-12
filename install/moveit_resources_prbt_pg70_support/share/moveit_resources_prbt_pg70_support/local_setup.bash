@@ -1,0 +1,1 @@
+/home/elian/ws_moveit2/build/moveit_resources_prbt_pg70_support/ament_cmake_environment_hooks/local_setup.bash

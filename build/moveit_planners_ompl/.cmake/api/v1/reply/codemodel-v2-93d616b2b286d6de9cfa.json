@@ -1,0 +1,116 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-08a41f613cf2aa613b3f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						3,
+						4
+					]
+				},
+				{
+					"build" : "ompl_interface",
+					"jsonFile" : "directory-ompl_interface-Release-09449473505cf664733f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "ompl_interface",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "moveit_planners_ompl",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "moveit_generate_state_database::@4199c5ba99e9d9d643f3",
+					"jsonFile" : "target-moveit_generate_state_database-Release-ea2c2ef5910bf72afade.json",
+					"name" : "moveit_generate_state_database",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "moveit_ompl_interface::@4199c5ba99e9d9d643f3",
+					"jsonFile" : "target-moveit_ompl_interface-Release-6104311580997fe3b827.json",
+					"name" : "moveit_ompl_interface",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "moveit_ompl_planner_plugin::@4199c5ba99e9d9d643f3",
+					"jsonFile" : "target-moveit_ompl_planner_plugin-Release-979c323d4e61286fe8e9.json",
+					"name" : "moveit_ompl_planner_plugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit_planners_ompl_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit_planners_ompl_uninstall-Release-177f44c24553524e0db1.json",
+					"name" : "moveit_planners_ompl_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-2b433d1df28379a1fa5d.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/elian/ws_moveit2/build/moveit_planners_ompl",
+		"source" : "/home/elian/ws_moveit2/src/moveit2/moveit_planners/ompl"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

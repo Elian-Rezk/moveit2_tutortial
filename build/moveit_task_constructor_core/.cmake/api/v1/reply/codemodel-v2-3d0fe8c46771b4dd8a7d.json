@@ -1,0 +1,235 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						3,
+						6
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-19fefad5a5043119d34f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						5,
+						7
+					]
+				},
+				{
+					"build" : "src",
+					"childIndexes" : 
+					[
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-src-Release-721bec28633fbfced806.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "src/stages",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-src.stages-Release-9426c74d2dccfcbd753a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/stages",
+					"targetIndexes" : 
+					[
+						3,
+						4
+					]
+				},
+				{
+					"build" : "python",
+					"childIndexes" : 
+					[
+						4,
+						5
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-python-Release-8db83237229819026e8d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "python"
+				},
+				{
+					"build" : "python/pybind11",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-python.pybind11-Release-902bd24ab0a20981e625.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "python/pybind11"
+				},
+				{
+					"build" : "python/bindings",
+					"jsonFile" : "directory-python.bindings-Release-38cc3c6745b6ca2e5d8c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 0,
+					"source" : "python/bindings",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "test",
+					"jsonFile" : "directory-test-Release-451c0598f41488bb20b9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "test"
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6
+					],
+					"name" : "moveit_task_constructor_core",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "pybind11",
+					"parentIndex" : 0
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_moveit_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_moveit_egg-Release-d371a4c00c6538dcb85b.json",
+					"name" : "ament_cmake_python_build_moveit_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_moveit::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_moveit-Release-1b7e414670f580232068.json",
+					"name" : "ament_cmake_python_symlink_moveit",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "moveit_task_constructor_core::@145eef247bfb46b6828c",
+					"jsonFile" : "target-moveit_task_constructor_core-Release-2cad0deaec861708d14d.json",
+					"name" : "moveit_task_constructor_core",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "moveit_task_constructor_core_stage_plugins::@4a4384139ba445893866",
+					"jsonFile" : "target-moveit_task_constructor_core_stage_plugins-Release-61db9a8ba407ee242eef.json",
+					"name" : "moveit_task_constructor_core_stage_plugins",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "moveit_task_constructor_core_stages::@4a4384139ba445893866",
+					"jsonFile" : "target-moveit_task_constructor_core_stages-Release-6e742cd15714f27eca6c.json",
+					"name" : "moveit_task_constructor_core_stages",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit_task_constructor_core_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit_task_constructor_core_uninstall-Release-2fd0da7f4bcc01219666.json",
+					"name" : "moveit_task_constructor_core_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "pymoveit_mtc::@2eea7b98123d8100bb1e",
+					"jsonFile" : "target-pymoveit_mtc-Release-ddd49faa7604bc2dbd98.json",
+					"name" : "pymoveit_mtc",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-1c0b16b7059b7bed3aa5.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/elian/ws_moveit2/build/moveit_task_constructor_core",
+		"source" : "/home/elian/ws_moveit2/src/moveit_task_constructor/core"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,1 @@
+/home/elian/ws_moveit2/build/moveit_task_constructor_core/ament_cmake_core/moveit_task_constructor_coreConfig-version.cmake

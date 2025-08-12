@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-1300b176153cdea0efc1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "rosparam_shortcuts",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "rosparam_shortcuts::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rosparam_shortcuts-Release-59157ee9f30990a40ffc.json",
+					"name" : "rosparam_shortcuts",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rosparam_shortcuts_example::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rosparam_shortcuts_example-Release-4b02a341a65990ac5c6c.json",
+					"name" : "rosparam_shortcuts_example",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rosparam_shortcuts_node_parameters_example::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rosparam_shortcuts_node_parameters_example-Release-d5c3fe20677a597cdd95.json",
+					"name" : "rosparam_shortcuts_node_parameters_example",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rosparam_shortcuts_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rosparam_shortcuts_uninstall-Release-74fd07f5d6f9028cb614.json",
+					"name" : "rosparam_shortcuts_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-2275c7679541b8da83e4.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/elian/ws_moveit2/build/rosparam_shortcuts",
+		"source" : "/home/elian/ws_moveit2/src/rosparam_shortcuts"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,1 @@
+/home/elian/ws_moveit2/build/pilz_industrial_motion_planner/ament_cmake_environment_hooks/local_setup.bash

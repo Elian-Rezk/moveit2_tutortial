@@ -1,0 +1,208 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-e27b3a99da5275516f39.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						3,
+						6
+					]
+				},
+				{
+					"build" : "cached_ik_kinematics_plugin",
+					"jsonFile" : "directory-cached_ik_kinematics_plugin-Release-a1cca775ff3dd5fda9e6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "cached_ik_kinematics_plugin",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				},
+				{
+					"build" : "ikfast_kinematics_plugin",
+					"jsonFile" : "directory-ikfast_kinematics_plugin-Release-31128746a537dd2ff190.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "ikfast_kinematics_plugin"
+				},
+				{
+					"build" : "kdl_kinematics_plugin",
+					"jsonFile" : "directory-kdl_kinematics_plugin-Release-cbf2bd43f0123f6eb2a4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "kdl_kinematics_plugin",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "lma_kinematics_plugin",
+					"jsonFile" : "directory-lma_kinematics_plugin-Release-ad8a400b3e9726fdacf2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "lma_kinematics_plugin",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "srv_kinematics_plugin",
+					"jsonFile" : "directory-srv_kinematics_plugin-Release-d67b93e56c769884d71c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "srv_kinematics_plugin",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "test",
+					"jsonFile" : "directory-test-Release-451c0598f41488bb20b9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "test"
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					],
+					"name" : "moveit_kinematics",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "moveit_cached_ik_kinematics_base::@6eca2c0e9a32ca7a880b",
+					"jsonFile" : "target-moveit_cached_ik_kinematics_base-Release-380b655b385834e62775.json",
+					"name" : "moveit_cached_ik_kinematics_base",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "moveit_cached_ik_kinematics_plugin::@6eca2c0e9a32ca7a880b",
+					"jsonFile" : "target-moveit_cached_ik_kinematics_plugin-Release-929b244de49059df13b8.json",
+					"name" : "moveit_cached_ik_kinematics_plugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "moveit_kdl_kinematics_plugin::@f8d1be1632e902913ac6",
+					"jsonFile" : "target-moveit_kdl_kinematics_plugin-Release-e9ac6d4f41cc7c2b929f.json",
+					"name" : "moveit_kdl_kinematics_plugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit_kinematics_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit_kinematics_uninstall-Release-6587f9f09d3cc74f89c5.json",
+					"name" : "moveit_kinematics_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "moveit_lma_kinematics_plugin::@a749384936396cb71a06",
+					"jsonFile" : "target-moveit_lma_kinematics_plugin-Release-20e0cb3ff50855d39cb5.json",
+					"name" : "moveit_lma_kinematics_plugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "moveit_srv_kinematics_plugin::@7208642b3c5bb478fa2d",
+					"jsonFile" : "target-moveit_srv_kinematics_plugin-Release-ce1cfb36fabae4c042ae.json",
+					"name" : "moveit_srv_kinematics_plugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-8c69b2734566830a9baf.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/elian/ws_moveit2/build/moveit_kinematics",
+		"source" : "/home/elian/ws_moveit2/src/moveit2/moveit_kinematics"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

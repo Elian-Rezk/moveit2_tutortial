@@ -1,0 +1,30 @@
+[0.009s] Invoking command in '/home/elian/ws_moveit2/build/moveit_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/elian/ws_moveit2/install/moveit_configs_utils:/home/elian/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/elian/ws_moveit2/src/moveit2/moveit_common -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/elian/ws_moveit2/install/moveit_common
+[0.023s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.124s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.187s] -- Configuring done
+[0.190s] -- Generating done
+[0.191s] -- Build files have been written to: /home/elian/ws_moveit2/build/moveit_common
+[0.193s] Invoked command in '/home/elian/ws_moveit2/build/moveit_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/elian/ws_moveit2/install/moveit_configs_utils:/home/elian/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/elian/ws_moveit2/src/moveit2/moveit_common -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/elian/ws_moveit2/install/moveit_common
+[0.194s] Invoking command in '/home/elian/ws_moveit2/build/moveit_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/elian/ws_moveit2/install/moveit_configs_utils:/home/elian/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/elian/ws_moveit2/build/moveit_common -- -j8 -l8
+[0.234s] Invoked command in '/home/elian/ws_moveit2/build/moveit_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/elian/ws_moveit2/install/moveit_configs_utils:/home/elian/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/elian/ws_moveit2/build/moveit_common -- -j8 -l8
+[0.244s] Invoking command in '/home/elian/ws_moveit2/build/moveit_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/elian/ws_moveit2/install/moveit_configs_utils:/home/elian/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/elian/ws_moveit2/build/moveit_common
+[0.251s] -- Install configuration: "Debug"
+[0.252s] -- Execute custom install script
+[0.252s] -- Up-to-date symlink: /home/elian/ws_moveit2/install/moveit_common/share/ament_index/resource_index/package_run_dependencies/moveit_common
+[0.252s] -- Up-to-date symlink: /home/elian/ws_moveit2/install/moveit_common/share/ament_index/resource_index/parent_prefix_path/moveit_common
+[0.252s] -- Up-to-date symlink: /home/elian/ws_moveit2/install/moveit_common/share/moveit_common/environment/ament_prefix_path.sh
+[0.252s] -- Up-to-date symlink: /home/elian/ws_moveit2/install/moveit_common/share/moveit_common/environment/ament_prefix_path.dsv
+[0.252s] -- Up-to-date symlink: /home/elian/ws_moveit2/install/moveit_common/share/moveit_common/environment/path.sh
+[0.252s] -- Up-to-date symlink: /home/elian/ws_moveit2/install/moveit_common/share/moveit_common/environment/path.dsv
+[0.252s] -- Up-to-date symlink: /home/elian/ws_moveit2/install/moveit_common/share/moveit_common/local_setup.bash
+[0.252s] -- Up-to-date symlink: /home/elian/ws_moveit2/install/moveit_common/share/moveit_common/local_setup.sh
+[0.252s] -- Up-to-date symlink: /home/elian/ws_moveit2/install/moveit_common/share/moveit_common/local_setup.zsh
+[0.252s] -- Up-to-date symlink: /home/elian/ws_moveit2/install/moveit_common/share/moveit_common/local_setup.dsv
+[0.253s] -- Symlinking: /home/elian/ws_moveit2/install/moveit_common/share/moveit_common/package.dsv
+[0.261s] -- Up-to-date symlink: /home/elian/ws_moveit2/install/moveit_common/share/ament_index/resource_index/packages/moveit_common
+[0.261s] -- Up-to-date symlink: /home/elian/ws_moveit2/install/moveit_common/share/moveit_common/cmake/moveit_common-extras.cmake
+[0.261s] -- Up-to-date symlink: /home/elian/ws_moveit2/install/moveit_common/share/moveit_common/cmake/moveit_commonConfig.cmake
+[0.261s] -- Up-to-date symlink: /home/elian/ws_moveit2/install/moveit_common/share/moveit_common/cmake/moveit_commonConfig-version.cmake
+[0.261s] -- Up-to-date symlink: /home/elian/ws_moveit2/install/moveit_common/share/moveit_common/package.xml
+[0.262s] -- Up-to-date symlink: /home/elian/ws_moveit2/install/moveit_common/share/moveit_common/cmake/moveit_package.cmake
+[0.263s] Invoked command in '/home/elian/ws_moveit2/build/moveit_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/elian/ws_moveit2/install/moveit_configs_utils:/home/elian/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/elian/ws_moveit2/build/moveit_common
